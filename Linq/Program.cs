@@ -149,7 +149,7 @@ VerificaSoluzione("Dal 7 in poi", sevenAndAfter, new[] { 7, 9, 4, 0, 3 });
 
 IEnumerable<int> aboveFiveAfterSevenDescending = new int[0];  // TODO
 
-VerificaSoluzione("Maggiori di 5, dopo il 2, in ordine decrescente", aboveFiveAfterSevenDescending, new[] { 7, 9 });
+VerificaSoluzione("Maggiori di 5, dopo il 2, in ordine decrescente", aboveFiveAfterSevenDescending, new[] { 9, 7 });
 
 
 // == SUPPORTO ==
