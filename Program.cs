@@ -156,7 +156,7 @@ VerificaSoluzione("Maggiori di 5, dopo il 2, in ordine decrescente", aboveFiveAf
 
 #region Supporto
 
-void VerificaSoluzione(string consegna, object risultato, object soluzione) {
+static void VerificaSoluzione(string consegna, object risultato, object soluzione) {
     ConsoleColor fc = Console.ForegroundColor;
     try {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
